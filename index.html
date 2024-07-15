@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceres.ai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <center><h1>Ceres.ai</h1></center>
+        </div>
+        <div id="suggestions-container" class="suggestions-container">
+            <p>What this bot can do:</p>
+            <ul>
+                <li> Create documents.</li>
+                <li> Tell jokes.</li>
+                <li> Tell quotes.</li>
+                <li> Tell random facts.</li>
+                <li> Tell weather forecast.</li>
+                <li> Tell date & time.</li>
+                <li> Redirect to games.</li>
+                <li> Redirect to calculator.</li>
+                <li> Tell about itself.</li>
+            </ul>
+            <p>Not sure what to ask?<br>
+                
+                <br>Try asking, "How are you?"
+                <br>Or, "Who created you."
+                <br>Or, "I need a calculator."
+                <br>Or, "Tell me the time."
+                <br>Or, "Tell me a joke"
+                </p>
+        </div>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
